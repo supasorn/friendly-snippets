@@ -10,11 +10,11 @@
       "app.set('view engine', 'ejs');",
       "app.use(express.static(root));",
       "app.get('/', (req, res) => {",
-      "\t\tres.send('Hello World!')",
+      "\tres.send('Hello World!')",
       "});",
       "",
       "app.listen(port, () => {",
-      "console.log('Example app listening on port ' + port)",
+      "\tconsole.log('Example app listening on port ' + port)",
       "})"
     ],
     "description": "create node intial template"
